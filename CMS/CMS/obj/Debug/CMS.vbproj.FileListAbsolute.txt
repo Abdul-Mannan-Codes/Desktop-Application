@@ -12,3 +12,4 @@ C:\Users\user\OneDrive\Desktop\Abdul Mannan\CO5-I\Software Testing (22518)\STE P
 C:\Users\user\OneDrive\Desktop\Abdul Mannan\CO5-I\Software Testing (22518)\STE Project\Desktop-Application\CMS\CMS\obj\Debug\CMS.pdb
 C:\Users\user\OneDrive\Desktop\Abdul Mannan\CO5-I\Software Testing (22518)\STE Project\Desktop-Application\CMS\CMS\obj\Debug\CMS.login.resources
 C:\Users\user\OneDrive\Desktop\Abdul Mannan\CO5-I\Software Testing (22518)\STE Project\Desktop-Application\CMS\CMS\obj\Debug\CMS.signin3.resources
+C:\Users\user\OneDrive\Desktop\Abdul Mannan\CO5-I\Software Testing (22518)\STE Project\Desktop-Application\CMS\CMS\obj\Debug\CMS.home.resources

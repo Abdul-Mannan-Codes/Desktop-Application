@@ -19,7 +19,19 @@ CMS
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:CMS.My.Resources.Resources.graph">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CMS.My.Resources.Resources.graph__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:CMS.My.Resources.Resources.Universityyy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CMS.My.Resources.Resources.Untitled_design">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

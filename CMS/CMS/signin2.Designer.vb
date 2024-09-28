@@ -23,6 +23,7 @@ Partial Class signin2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -36,13 +37,16 @@ Partial Class signin2
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Snow
+        Me.Panel1.Controls.Add(Me.RichTextBox1)
+        Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.TextBox5)
@@ -61,6 +65,18 @@ Partial Class signin2
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(684, 423)
         Me.Panel1.TabIndex = 1
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Maroon
+        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button2.Location = New System.Drawing.Point(541, 353)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(108, 41)
+        Me.Button2.TabIndex = 25
+        Me.Button2.Text = "NEXT"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label7
         '
@@ -168,10 +184,10 @@ Partial Class signin2
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Book Antiqua", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(304, 65)
+        Me.Label2.Font = New System.Drawing.Font("Book Antiqua", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(300, 65)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(92, 26)
+        Me.Label2.Size = New System.Drawing.Size(96, 26)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Location"
         '
@@ -185,17 +201,24 @@ Partial Class signin2
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "SIGN UP"
         '
-        'Button2
+        'Label8
         '
-        Me.Button2.BackColor = System.Drawing.Color.Maroon
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button2.Location = New System.Drawing.Point(541, 322)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(108, 41)
-        Me.Button2.TabIndex = 25
-        Me.Button2.Text = "NEXT"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(63, 297)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(75, 18)
+        Me.Label8.TabIndex = 26
+        Me.Label8.Text = "Address"
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.Location = New System.Drawing.Point(161, 298)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(310, 96)
+        Me.RichTextBox1.TabIndex = 27
+        Me.RichTextBox1.Text = ""
         '
         'signin2
         '
@@ -226,4 +249,6 @@ Partial Class signin2
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
 End Class

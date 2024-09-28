@@ -23,6 +23,7 @@ Partial Class signin3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -31,7 +32,6 @@ Partial Class signin3
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -51,6 +51,19 @@ Partial Class signin3
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(684, 423)
         Me.Panel1.TabIndex = 2
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Maroon
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button2.Location = New System.Drawing.Point(241, 280)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(209, 41)
+        Me.Button2.TabIndex = 21
+        Me.Button2.Text = "SIGN UP"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -127,19 +140,6 @@ Partial Class signin3
         Me.Label1.Size = New System.Drawing.Size(101, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "SIGN UP"
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.Maroon
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button2.Location = New System.Drawing.Point(241, 280)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(209, 41)
-        Me.Button2.TabIndex = 21
-        Me.Button2.Text = "SIGN UP"
-        Me.Button2.UseVisualStyleBackColor = False
         '
         'signin3
         '
